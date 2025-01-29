@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: New Choice Event 4
+  m_EditorClassIdentifier: 
+  eventTitle: The Pronta Scandal
+  eventText: "\u201CPronta\u2019s cooking the books, and the truth\u2019s about to
+    come out. Do you join the scheme for big gains or walk away to protect your name?\""
+  option1ButtonName: Get involved and ride the profits.
+  money: 0
+  pr: -10
+  moral: -10
+  crim: 25
+  dailyIncome: 100
+  option2ButtonName: Stay out and maintain your clean reputation.
+  money2: 0
+  pr2: 25
+  moral2: 25
+  crim2: 0
+  dailyIncome2: 0

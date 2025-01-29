@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b375a2be7c5a58448033ef26bc6bc26, type: 3}
+  m_Name: New Event 5
+  m_EditorClassIdentifier: 
+  eventTitle: 'Stock Market Crash:'
+  eventText: "\u201CDing ding ding! The stock market just remembered it\u2019s allergic
+    to success. You might wanna keep your savings in a mattress for now.\u201D"
+  money: -10000
+  pr: -5
+  moral: 0
+  crim: 0

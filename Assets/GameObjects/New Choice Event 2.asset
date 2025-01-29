@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: New Choice Event 2
+  m_EditorClassIdentifier: 
+  eventTitle: The Dot-Com Bust
+  eventText: "\u201CTech stocks just took a nosedive. Do you panic-sell or keep your
+    cool and hold onto your positions?\""
+  option1ButtonName: Sell off everything to avoid the crash.
+  money: 5000
+  pr: -20
+  moral: 0
+  crim: 0
+  dailyIncome: 0
+  option2ButtonName: Stick to your investments and ride out the storm.
+  money2: -5000
+  pr2: 0
+  moral2: 0
+  crim2: 0
+  dailyIncome2: 100

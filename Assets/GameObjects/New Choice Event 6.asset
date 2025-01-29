@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: New Choice Event 6
+  m_EditorClassIdentifier: 
+  eventTitle: Housing Boom
+  eventText: "\u201CEveryone\u2019s buying homes like crazy\u2014do you jump on the
+    bandwagon and make big sales, or hold off and avoid overleveraging your assets?\""
+  option1ButtonName: Go big and make as many deals as possible.
+  money: 10000
+  pr: 0
+  moral: -20
+  crim: 0
+  dailyIncome: 0
+  option2ButtonName: Play it safe and wait for the bubble to burst.
+  money2: 0
+  pr2: 10
+  moral2: 20
+  crim2: 0
+  dailyIncome2: 100

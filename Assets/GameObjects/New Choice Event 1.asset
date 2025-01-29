@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: New Choice Event 1
+  m_EditorClassIdentifier: 
+  eventTitle: Russian Financial Crisis
+  eventText: "\u201CRussia defaults on its debt\u2014do you cut your losses or stay
+    invested and hope for a miracle recovery?\""
+  option1ButtonName: Bail out and minimize your risk.
+  money: 2000
+  pr: 0
+  moral: -10
+  crim: 0
+  dailyIncome: 0
+  option2ButtonName: Stay in the game for the chance of a big reward.
+  money2: -10000
+  pr2: 0
+  moral2: 0
+  crim2: 0
+  dailyIncome2: 100

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: FBI Event
+  m_EditorClassIdentifier: 
+  eventTitle: FBI Investigates
+  eventText: The FBI has chosen to investigate your company after your shady dealings
+    have become known! They are looking to seize any potentially incriminating data
+    and illegally obtained assets.
+  option1ButtonName: Try to bribe them.
+  money: -1000000
+  pr: 0
+  moral: -50
+  crim: -60
+  dailyIncome: -500
+  option2ButtonName: Let them seize your assets.
+  money2: -500000
+  pr2: -45
+  moral2: 0
+  crim2: -35
+  dailyIncome2: 0

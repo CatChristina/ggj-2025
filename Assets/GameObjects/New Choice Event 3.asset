@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: New Choice Event 3
+  m_EditorClassIdentifier: 
+  eventTitle: Subprime Mortgage Crisis
+  eventText: "\u201CHouses are defaulting everywhere\u2014do you profit from distressed
+    properties or help stabilize the market?\""
+  option1ButtonName: Buy up distressed properties and flip them for profit.
+  money: 10000
+  pr: -15
+  moral: -25
+  crim: 0
+  dailyIncome: 0
+  option2ButtonName: Stay out of the mess and help families keep their homes.
+  money2: -2000
+  pr2: 50
+  moral2: 50
+  crim2: 0
+  dailyIncome2: 0

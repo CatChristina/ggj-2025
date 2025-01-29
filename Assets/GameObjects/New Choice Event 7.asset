@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e3890649e45eb49a4cc258ae4db036, type: 3}
+  m_Name: New Choice Event 7
+  m_EditorClassIdentifier: 
+  eventTitle: Dodgy Deal
+  eventText: "\u201CSomeone has offered you a lucrative deal under the table that
+    could quickly raise your profits! Do you take the deal at the expense of your
+    reputation?\""
+  option1ButtonName: Take the deal for a large sum of money.
+  money: 30000
+  pr: -20
+  moral: -30
+  crim: 50
+  dailyIncome: 100
+  option2ButtonName: Ignore the deal, it's not worth the risk.
+  money2: 0
+  pr2: 5
+  moral2: 25
+  crim2: 0
+  dailyIncome2: 0

@@ -53,6 +53,13 @@ public class ResearchItem : MonoBehaviour
         else
         {
             DoResearch();
+
+            var colors = button.colors;
+            colors.normalColor = finishedColor + new Color(0.1f, 0.3f, 0.1f);
+            colors.selectedColor = finishedColor + new Color(0.1f, 0.3f, 0.1f);
+            colors.pressedColor = finishedColor + new Color(0.1f, 0.3f, 0.1f);
+            colors.highlightedColor = finishedColor + new Color(0.1f, 0.3f, 0.1f);
+            button.colors = colors;
         }
     }
 
@@ -93,6 +100,7 @@ public class ResearchItem : MonoBehaviour
             gameObject.GetComponent<Button>().interactable = false;
 
             var colors = button.colors;
+            colors.normalColor = Color.white;
             colors.disabledColor = finishedColor;
             button.colors = colors;
             

@@ -85,6 +85,18 @@ public class Company : MonoBehaviour
         InitialRent();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            PauseTime();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            ChangeTimeScale();
+        }
+    }
     private void InitialRent()
     {
         costPerDay += 10;
@@ -126,7 +138,7 @@ public class Company : MonoBehaviour
                 month++;
                 profit += money;
                 money -= loss;
-                costPerDay += 10;
+                costPerDay += 5;
 
                 if (graph.valueList.Count == 12)
                 {
@@ -225,6 +237,7 @@ public class Company : MonoBehaviour
         if (itemsToSell.Count > 0 && Random.Range(0, 5) <= 1)
         {
             money += itemsToSell[0];
+            profit += itemsToSell[0];
             itemsToSell.Remove(itemsToSell[0]);
         }
     }
